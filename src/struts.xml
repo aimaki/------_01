@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+<constant name="struts.devMode" value="true"/>  
+
+<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+
+<!-- 设置为允许访问静态方法 -->
+
+<constant name="struts.ui.theme" value="simple"></constant>
+
+
+
+
+<package name = "user" namespace = "/" extends = "struts-default">
+
+
+<action name="comment_add" class = "com.bj.action.CommentAction" method = "add">
+
+
+
+<interceptor-ref name="defaultStack"></interceptor-ref>
+<interceptor-ref name="token"></interceptor-ref>
+<result name = "invalid.token">/error.jsp</result>
+
+<result name = "add">/Comment/add.jsp</result>
+
+<result name = "empty">/main.jsp</result>
+
+<result name = "orempty">/Comment/orempty.jsp</result>
+
+</action>
+
+<action name = "comment_*"  class = "com.bj.action.CommentAction" method = "{1}">
+
+<result name = "list">/WEB-INF/Comment/list.jsp</result>
+
+ 
+
+
+</action>
+
+ 
+ 
+ 
+
+ 
+
+
+
+</package>
+
+ 
+
+</struts>
+
+
+
+
+
+
