@@ -4,12 +4,81 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>未知错误</title>
+
+
+<style type="text/css">
+
+#point{
+
+float: left;
+
+width: 100%;
+
+height: 60%;
+
+margin-top: 17%;
+
+
+
+}
+
+h1{
+
+text-align: center;
+
+font-family: microsoft yahei;
+
+}
+P{
+
+text-align: center;
+
+font-family: microsoft yahei;
+
+font-size: 18px;
+
+}
+
+
+</style>
+
+
 </head>
 <body>
 
+<div id = "point">
+<h1  >抱歉！未知错误</h1>
 
-<h1>added!!!!!</h1>
+ <p>请检查输入信息是否完全，确保网络连接正常</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

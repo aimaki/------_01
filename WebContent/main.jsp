@@ -229,7 +229,7 @@
 <div class = "bottom_right">
 
 
-<p class = "p7">© 2014 Firebox Technology Co., Ltd. All rights reserved</p>
+<p class = "p7">© 2015 huange Technology. All rights reserved</p>
 
 
 </div>

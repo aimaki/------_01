@@ -6,20 +6,74 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+
+<link rel = "stylesheet" type = "text/css" href = "list.css">
+
+<title>评论</title>
 </head>
 <body>
 
-<s:iterator value = "comments" id = "c">
+ 
+<div id = "content">
 
-<s:property value= "#c.id"/>
+<div class = "des"><h1>收到的评论</h1></div>
 
-<s:property value = "#c.name"/>
+	<div class = "center">
 
-<s:property value = "#c.content"/>
+		<div class = "title"><p>id</p></div>
+		<div class = "title"><p>name</p></div>
+		<div class = "title"><p>comment</p></div>
+
+ 
+
+	<s:iterator   value = "comments" id = "c">
+
+ <div class = "id">
+	<p>	<s:property value= "#c.id"/> </p>
+ </div>
+ 
+ <div class = "name">
+	<p>	<s:property value = "#c.name"/> </p>
+ </div>
+ 
+ 
+ 
+ <div class = "comment">
+		<p><s:property value = "#c.content"/></p> 
+</div>
+ 
+	</s:iterator>
+
+ 
+	</div>
+	
+
+</div>
 
 
-</s:iterator>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

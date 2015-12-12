@@ -5,11 +5,55 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+
+<style type="text/css">
+
+
+#center{
+
+width:60%;
+margin-top: 250px;
+height: 200px;
+float: left;
+margin-left: 20%;
+text-align: center;
+
+
+}
+h1{
+
+ 
+font-family: microsoft yahei;
+margin-left:
+
+}
+
+
+
+
+</style>
 </head>
 <body>
 
+<div id = "center">
+<h1>你的评论我收到了，谢谢:)</h1>
 
-<h1>你的评论我收到了，谢谢</h1>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

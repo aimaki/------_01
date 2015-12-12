@@ -5,11 +5,39 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+
+<style type="text/css">
+
+
+#center{
+
+width:60%;
+margin-top: 250px;
+height: 200px;
+float: left;
+margin-left: 20%;
+text-align: center;
+
+
+}
+h1{
+
+ 
+font-family: microsoft yahei;
+margin-left:
+
+}
+
+
+
+
+</style>
 </head>
 <body>
 
-
-<h1>orempty</h1>
+<div id = "center">
+<h1>先生，你输入的信息不完全呢</h1></div>
 
 </body>
 </html>

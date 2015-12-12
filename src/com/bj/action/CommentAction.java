@@ -19,6 +19,9 @@ public class CommentAction extends ActionSupport {
 	
 	
 	private CommentServiceInter csi = getCSI();
+	
+	private String username;
+	private String userpwd;
 
 
 	private CommentServiceInter getCSI() {
@@ -57,11 +60,25 @@ public class CommentAction extends ActionSupport {
 	
 	
 	public String list(){
-		comments = csi.list();		
-		return "list";
+		
+		if (username.equals("maki") && userpwd.equals("520")){
+			comments = csi.list();		
+			return "list";
+
+		}else{
+			return "error";
+		}
+		
+		
+		
 	}
 	
 	
+	
+	public String manager(){
+		
+		return "manager";
+	}
 	
 	
 
@@ -99,6 +116,30 @@ public class CommentAction extends ActionSupport {
 
 	public void setCsi(CommentServiceInter csi) {
 		this.csi = csi;
+	}
+
+
+
+	public String getUsername() {
+		return username;
+	}
+
+
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
+
+	public String getUserpwd() {
+		return userpwd;
+	}
+
+
+
+	public void setUserpwd(String userpwd) {
+		this.userpwd = userpwd;
 	}
 	
 	
